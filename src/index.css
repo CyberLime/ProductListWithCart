@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("/assets/fonts/static/RedHatText-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("/assets/fonts/static/RedHatText-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("/assets/fonts/static/RedHatText-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(7, 20%, 60%);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(12, 20%, 44%);
+}
